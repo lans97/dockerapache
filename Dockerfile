@@ -1,3 +1,4 @@
+# Dockerfile instalar apache y activar el daemon
 FROM ubuntu
 RUN apt update
 RUN apt install -y apache2
